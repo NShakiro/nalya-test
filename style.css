@@ -1,0 +1,62 @@
+body {
+  background-image: linear-gradient(159deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  font-family: fantasy;
+  padding: 15px;
+}
+
+  .container {
+    position: relative;
+    margin: 20px;
+  }
+
+  p {
+    font-size: 18px;
+    /* Размер шрифта */
+    text-align: justify;
+    /* Выравнивание текста */
+    text-indent: 20px;
+    /* Отступ первой строки в пикселах */
+  }
+
+  h1, h2 {
+    text-align: center;
+    /* Выравнивание текста по центру */
+  }
+
+  u, em, strong {
+    color: white;
+  }
+
+  img {
+    width: 200px;
+    /* Ширина картинки в пикселах */
+
+    /* Высота в пикселах */
+    border: 10px solid #edeb1e;
+    border-radius: 50%;
+  }
+
+  .one {
+    color: white;
+  }
+
+  .two {
+    color: #edeb1e;
+  }
+
+  .three {
+    color: red;
+  }
+
+  .four {
+    color: darkblue;
+  }
+
+  .five {
+    color: bisque;
+  }
+
+  mark {
+    background-color: #FA8BFF;
+    color: white;
+  }

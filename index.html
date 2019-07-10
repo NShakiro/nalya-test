@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- отвечает за корректное отображение веб-страницы браузером | версия HTML5 -->
+
+<!-- отвечает за язык контента html-страницы, напр. "en" - английский контент, а "ru" - русский и т.д. -->
+<html lang="en">
+
+
+<head>
+  <!-- Указывает кодировку символов для текущего HTML-документа -->
+  <meta charset="UTF-8">
+
+  <!-- Ключевые слова через запятую -->
+  <meta name="keywords" content="the simpsons, cartoon, comedy">
+
+  <!-- Заголовок для браузера -->
+  <title>The Simpsons</title>
+
+ <!-- Внешнее подключение стилей, в href прописыввается путь к css-документу -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- Тег-контейнер для разделов HTML-документа. Используется для группировки блочных элементов с целью форматирования стилями. Название класса для форматирования в CSS указывается через точку (.) -->
+  <div class="container">
+
+    <!-- Заголовок 1 уровня, всего их 6 -->
+    <h1>The Simpsons</h1>
+
+<!-- Картинка помещена в отдельный div-контейнер и применено значение выравнивание по центру.  -->
+<div style="text-align: center">
+  <img src="images/the-family.png" alt="TheSimpsons" title="The Simpsons">
+</div>
+<!-- Встраивает изображения в HTML-документ с помощью атрибута src, значением которого является адрес встраиваемого изображения. Тег title выдает подсказку при наведении курсора мышки на картинку в браузере.
+  https://upload.wikimedia.org/wikipedia/en/0/0d/Simpsons_FamilyPicture.png
+ -->
+
+    <!-- Абзац -->
+<p>
+  <u>Lorem ipsum dolor sit amet, consectetur adipisicing elit</u>. Aut ex sapiente rerum, et aliquam dolores enim soluta consequuntur!
+<em>Veritatis aut incidunt eligendi</em> maxime rem nisi obcaecati
+<strong>numquam!</strong> Sed animi fugiat corrupti iusto incidunt, voluptatem,
+      blanditiis eaque soluta neque, fuga nobis atque culpa a illum.</p>
+
+    <p>Voluptate accusamus ipsa eos labore quaerat in ad, nemo ea facilis illo molestias id quam consequuntur est, voluptatem veritatis aspernatur commodi aperiam alias rem, nobis et? Pariatur a impedit adipisci earum fugit error nesciunt repudiandae voluptatem
+      aperiam omnis consequatur inventore harum temporibus molestiae et fuga sunt dignissimos architecto voluptate, officia tenetur iure delectus optio. Quia, repudiandae!</p>
+
+<h2>
+  <mark>Family members (characters):</mark>
+</h2>
+
+    <ol>
+      <li class="one">Homer Simpson (Father)</li>
+      <li class="two">Marge Simpson (Monther)</li>
+      <li class="three">Bard Simpson (Son)</li>
+      <li class="four">Lisa Simpson (Eldest Daughter)</li>
+      <li class="five">Maggie Simpson (Youngest Daugther)</li>
+    </ol>
+
+
+  </div>
+
+</body>
+
+</html>
